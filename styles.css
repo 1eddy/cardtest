@@ -5,6 +5,7 @@ body {
     align-items: center;
     height: 100vh;
     display: flex;
+    font-family: 'Figtree', sans-serif;
 }
 
 .cardbox {
@@ -14,7 +15,6 @@ background-color: white;
 border-radius: 16px;
 box-shadow: 7px 7px 0px rgba(0, 0, 0, 1);
 border: black 2px solid;
-blur-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .category {
@@ -45,7 +45,7 @@ blur-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     display: flex;
     align-items: center;
     margin-top: 15px;
-    margin-left: 10px;
+    margin-left: auto;
 }
 
 .cardbox .author img {
