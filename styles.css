@@ -1,0 +1,75 @@
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+}
+
+.cardbox {
+width: 350px;
+padding: 15px;
+background-color: white;
+border-radius: 16px;
+box-shadow: 7px 7px 0px rgba(0, 0, 0, 1);
+border: black 2px solid;
+blur-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.category {
+    border-radius: 5px;
+    background-color: hsl(47, 88%, 63%);
+    color: black;
+    padding: 5px 10px;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.date {
+    color: black;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding-bottom: 0%;
+}
+
+.cardbox h1 {
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cardbox .author {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.cardbox .author img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.cardbox .author .name {
+    font-weight: bold;
+    color: black;
+}
+
+.cardbox .descirption {
+    font-size: 16px;
+    color: black;
+    margin-top: 10px;
+    line-height: 1.5;
+    
+} 
+
+.cardbox .img{
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 15px;
+}
